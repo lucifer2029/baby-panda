@@ -266,7 +266,7 @@ class AudioEngine {
     playMusic() {
         if (this.bgMusicNode) return; // Prevent multiple instances of the music
 
-        const audio = new Audio('assets/bgmusic.mp3'); // Replace with your music file path
+        const audio = new Audio('panda/assets/bgmusic.mp3'); // Replace with your music file path
         audio.loop = true; // Enable looping
         audio.volume = this.masterVolume * 0.5; // Set volume
         audio.play();
@@ -791,3 +791,4 @@ window.onload = () => {
 </script>
 </body>
 </html>
+
